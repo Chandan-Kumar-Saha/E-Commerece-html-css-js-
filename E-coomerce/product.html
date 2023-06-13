@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="e-commerce project">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>E-commerce</title>
+</head>
+<body>
+    <!-- icon start  -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <!-- icon end -->
+    
+    
+    <!-- navbar start here -->
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav_list"><a href="e-commerce.html" class="nav__link">Home</a></li>
+            <li class="nav_list"><a href="register.html" class="nav__link">Register</a></li>
+            <li class="nav_list"><a href="login.html" class="nav__link">LogIn</a></li>
+            <li class="nav_list"><a href="e-commerce.html" class="nav__link">LogOut</a></li>
+            <li class="nav_list"><a href="contact.html" class="nav__link">Contact</a></li>
+            <li class="nav_list"><a href="profile.html" class="nav__link">
+                <img class="profile-icon" src="chandan.jpg" alt="profile icon">
+            </a></li>
+            <li class="nav_list"><a href="cart.html" class="nav__link">
+                <i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </nav>
+    <!-- navbar end here -->
+
+    <!-- main stat here -->
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                
+                <div class="product-details-left flex-center">
+                    <img src="jbl1.jpg" alt="product1">
+                </div>
+
+                <div class="product-details-right ">
+                    <h3 class="product__name">JBl v2 headphone</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product__description">
+                        <strong>Description: </strong><br>
+                        Encadré mon et ô ce d'une ô, encore l'abri mettrait atrocement qui ou pontife des robuste n'est. Soucieux en fait avec âme pieds. Qui air. </p>
+                    <h4 class="product__category">Category: Headphone</h4>
+                    <h4 class="product__price">$223</h4>
+                    <p class="product__rating">Rating: 4.5/5</p>
+                    <button class="btn product__button">Add to Cart</button>
+                    <button class="btn product__button">Back to Shopping</button>
+                </div>
+            </section>
+        </div>
+    </main>
+<!-- main end here -->
+
+    <!-- footer start here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your E-mail address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy;Copyright by hululu express. All rights reserved</p>
+        </div>
+    </footer>
+    <!-- footer end here -->
+    
+    <script src="./JavaScript/e-commerce.js"></script>
+</body>
+</html>
